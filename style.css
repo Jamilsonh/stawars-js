@@ -1,42 +1,105 @@
-body{
-    overflow-x: hidden;
-    background-color: black;
+/*Limpar formatações padrão*/
+* {
+    margin: 0;
+    padding: 0;
 }
-nav{
-    margin-top: 5vh;
-    background-color: #DCDCDC;
-    margin-left: -2vh;
-    height: 10vh;
-    width: 213vh;
-    -webkit-box-shadow: -1px 11px 16px -4px rgba(0,0,0,0.72);
-    -moz-box-shadow: -1px 11px 16px -4px rgba(0,0,0,0.72);
-    box-shadow: -1px 5px 16px -4px rgba(0,0,0,0.72);
+
+body {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #000000;
 }
-nav img{
-	position: relative;
-	left: 100px;
-	bottom: -5px;
+
+#navegacao {
+    background: #fff;
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
-nav ul{
-    margin-top: -8vh;
+
+#area {
+    width: 720px;
+    margin: 0 auto;
 }
-nav ul li{
+
+#area-principal {
+    width: 720px;
+    margin: 55px auto 10px auto;
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
     float: right;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    text-decoration: none;
-    list-style: none;
-    padding-right: 5vh;
-    position: relative;
-    right: 130px;
-    bottom: -15px;
+    padding: 10px 0;
+    font-style: fantasy;
 }
-nav ul li a{
-    color: black;
-    text-decoration: none;
+
+#postagem {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
 }
-nav ul li a:hover{
-    transition: 0.5s;
-    color: #CC1100;
+
+h2 {
+    color: #EE0000;
+}
+
+/****************************************************
+***********************Formatação do menu************/
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: fantasy;
+    color: #000000;
+}
+/*Links não visitados*/
+a:link {
+    color: #2F4F4F;
+}
+
+/*Links vistados*/
+a:visited {
+    color: #000000;
+}
+
+/*Links hover*/
+a:hover {
+    color: #000000;
+    background: #CD0000;
+}
+
+/*Links active*/
+a:active {
+    color: #535353;
+}
+
+
+/*Classes*/
+.verde {
+    color: #EE0000;
+}
+
+.data-postagem {
+    font-size: 14px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.img-postagem{
+    float: left;
+    margin:0 10px 5px 0;
+}
+
+.postado {
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
 }
