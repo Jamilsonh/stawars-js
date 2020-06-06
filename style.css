@@ -25,7 +25,7 @@ body {
 }
 
 #area-principal {
-    width: 720px;
+    width: 700px;
     margin: 55px auto 10px auto;
 }
 
@@ -42,11 +42,20 @@ body {
 #postagem {
     background: #fff;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+#texto {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
 }
 
 h2 {
     color: #EE0000;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
 }
 
 /****************************************************
@@ -82,14 +91,6 @@ a:active {
 /*Classes*/
 .verde {
     color: #EE0000;
-}
-
-.data-postagem {
-    font-size: 14px;
-    border-bottom: 1px solid #f4f4f4;
-    display: block;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
 }
 
 .img-postagem{
