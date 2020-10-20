@@ -7,42 +7,100 @@
 body {
     font-size: 16px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: #000000;
+    background: url('img/curs.jpg');
+    background-attachment: fixed;
+                
+
 }
 
 #navegacao {
-    background: #fff;
-    border-bottom: 1px solid #d8d8d8;
-    height: 45px;
+    background: url('img/bnr.jpg');
+    height: 90px;
     position: fixed;
     width: 100%;
     top: 0;
+    border-bottom: 1px solid #d8d8d8;
 }
 
 #area {
-    width: 720px;
+    width: 1100px;
     margin: 0 auto;
+    margin-top: 8px;
 }
 
 #area-principal {
-    width: 700px;
-    margin: 55px auto 10px auto;
+    width: 1100px;
+    margin: 80px auto 10px auto;
+    padding-top: 35px;
 }
 
 #logo {
-    float: left;
+    text-align: center;
+    border-bottom: 1px solid #d8d8d8;
+
+}
+
+#topo {
+    padding: 5px 0px;
+    font-style: fantasy;
+    font-size: 20px;
+    text-align: center;
 }
 
 #menu {
-    float: right;
-    padding: 10px 0;
+    padding: 5px 0px;
     font-style: fantasy;
+    font-size: 20px;
+    text-align: center;
 }
 
 #postagem {
-    background: #fff;
-    padding: 10px;
+    background: url('img/fnd.jpg');
+    padding: 0px;
     margin-bottom: 25px;
+    width: 1100px;
+    height: 309px;
+    border-radius: 50px;
+}
+
+#postagem2 {
+    background: url('img/fnd.jpg');
+    margin-bottom: 10px;
+    margin-right: 30px;
+    width: 230px;
+    height: 450px;
+    float:left;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#postagem3 {
+    background: url('img/fnd.jpg');
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    width: 540px;
+    height: 160px;
+    float: left;
+    border-radius: 50px;
+}
+
+#postagem4 {
+    background: url('img/fnd.jpg');
+    padding: 0px;
+    margin-bottom: 25px;
+    width: 1100px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+#postagem5 {
+    background: url('img/fnd.jpg');
+    padding: 0px;
+    margin-bottom: 10px;
+    width: 1100px;
+    height: 308px;
+    border-radius: 50px;
 }
 
 #texto {
@@ -51,51 +109,89 @@ body {
     margin-bottom: 25px;
 }
 
-h2 {
-    color: #EE0000;
-    border-bottom: 1px solid #f4f4f4;
-    padding-bottom: 3px;
+p{
+    padding-bottom: 7px;
     margin-bottom: 8px;
+    color: #BEBEBE;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+h1 {
+    color: #CC1100;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #DCDCDC;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    padding-left: 35px;
 }
 
 /****************************************************
 ***********************Formatação do menu************/
+b {
+    padding: 5px 20px;
+    font-family: fantasy;
+    color: #D3D3D3;
+    text-decoration: none;
+}/*
 a {
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 0px 10px;
     font-family: fantasy;
-    color: #000000;
+    color: #D3D3D3;
 }
 /*Links não visitados*/
-a:link {
-    color: #2F4F4F;
+/*a:link {
+    color: #D3D3D3;
 }
 
 /*Links vistados*/
-a:visited {
-    color: #000000;
+/*a:visited {
+    color: #D3D3D3;
 }
 
 /*Links hover*/
-a:hover {
-    color: #000000;
+/*a:hover {
+    color: #D3D3D3;
     background: #CD0000;
 }
 
 /*Links active*/
-a:active {
-    color: #535353;
+/*a:active {
+    color: #D3D3D3;
 }
 
 
 /*Classes*/
+
+.azul{
+    text-decoration: none;
+    padding: 0px 10px;
+    font-family: fantasy;
+    color: #D3D3D3;
+}
+.azul:hover {
+    color: #D3D3D3;
+    background: #CD0000;
+}
+
 .verde {
-    color: #EE0000;
+    color: #CC1100;
+    text-align: center;
 }
 
 .img-postagem{
+    float: right;
+    padding-left: 5px;
+}
+
+.img-postagem2{
     float: left;
-    margin:0 10px 5px 0;
+    padding-right: 15px;
 }
 
 .postado {
