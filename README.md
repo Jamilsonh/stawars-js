@@ -2,8 +2,12 @@
 
 Site desnvolvido baseado na franquia Star Wars, contendo informaçoes sobre os personagens e outros elementos da franquia
 
+### 🛠️ Tecnologias 
+
 - HTML
 - CSS
 - JAVASCRIPT
 
------ FINALIZADO -----
+### 📋 Status Do Projeto
+
+- Finalizado ✔️
